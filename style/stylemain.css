@@ -3,12 +3,13 @@ body {
 	text-align: center;
 	background: url("../images/background.jpg") no-repeat center;
 	background-size: cover;
-	font-family: 'Slabo 27px', serif;
-
+	/*font-family: 'Slabo 27px', serif; */
+	font-family: 'Roboto Slab', serif;
 }
 
 nav img {
 	float: left;
+	margin-top: 3px;
 }
 nav {
 	background: black;
@@ -25,8 +26,9 @@ nav ul {
 }
 nav li {
 	display: inline;
-	padding: 0 5px;
+	padding: 0px 5px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	float: right;
 }
 nav a {

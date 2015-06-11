@@ -1,0 +1,65 @@
+body {
+	text-align: center;
+	background: url("../images/background.jpg") no-repeat center;
+	background-size: cover;
+
+}
+
+nav img {
+	float: left;
+}
+nav {
+	background: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: 'Slabo 27px', serif;
+
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	padding: 0 5px;
+	margin-right: 20px;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	opacity: .5;
+}
+h1{
+	font-size: 40px;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#me {
+	margin-top: 100px;
+	font-family: 'Slabo 27px', serif;
+	color: white;
+}
+#me img {
+	border-radius: 100px;
+	transform:rotate(90deg);
+	height: 200px;
+	display: inline-block;
+	padding: 20px 0;
+}
+#black {
+	background: rgba(0, 0, 0, .4);
+	width: 100%;
+	border-radius: 10px;
+	border: 1px white solid;
+}
+
+

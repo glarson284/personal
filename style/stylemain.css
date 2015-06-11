@@ -1,0 +1,136 @@
+/* Main CSS - navbar,background image */
+body {
+	text-align: center;
+	background: url("../images/background.jpg") no-repeat center;
+	background-size: cover;
+	font-family: 'Slabo 27px', serif;
+
+}
+
+nav img {
+	float: left;
+}
+nav {
+	background: black;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	padding: 0 5px;
+	margin-right: 20px;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	opacity: .5;
+}
+h1{
+	font-size: 40px;
+}
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+h2 {
+	margin-bottom: 2px;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+/* End Main CSS */
+
+/* Home page */
+#me {
+	margin-top: 120px;
+	color: white
+}
+#me h1 {
+	font-size: 50px;
+}
+#me img {
+	border-radius: 100px;
+	transform:rotate(90deg);
+	height: 200px;
+	display: inline-block;
+	padding: 15px 0 20px 0;
+}
+#me {
+	background: rgba(0, 0, 0, .4);
+	width: 100%;
+	border-radius: 10px;
+	border: 1px white solid;
+}
+/* End Home Page */
+
+/* About Page */
+#about {
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+	color: white;
+	padding: 5px 20px 110px 20px;
+	margin-top: 120px;
+	border: 1px solid;
+}
+
+#about h3 {
+	font-size: 30px;
+	padding: 0px auto;
+	margin-bottom: 10px;
+}
+#education p{
+	width: 370px;
+	float: left;
+	text-align: center;
+}
+
+
+/* End About Page */
+
+/* Contact Page */
+#contact {
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+	color: white;
+	padding: 0px 20px;
+	margin-top: 120px;
+	border: 1px solid;
+}
+#contact a {
+	text-decoration: none;
+	color: white;
+}
+#contact h2 {
+	margin-bottom: 2px;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+/* End Contact Page */
+
+/*Skills Page */
+
+#skills {
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+	color: white;
+	padding: 0px 20px 20px 0px;
+	margin-top: 120px;
+	border: 1px solid;
+}
+#skills ul {
+	list-style-type: none;
+	padding: 0px;
+	width: 350px;
+	float: left;
+}

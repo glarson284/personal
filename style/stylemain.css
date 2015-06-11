@@ -143,6 +143,23 @@ h2 {
 	padding-top: 0px;
 	margin-top: 0px;
 }
+/* End Skills Page */
 
+/* Portfolio Page */
+#portfolio {
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+	color: white;
+	padding: 5px 20px 20px 20px;
+	margin-top: 120px;
+	border: 1px solid;
+}
+#portfolio > img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	padding: 5px 10px;
+
+}
 
 

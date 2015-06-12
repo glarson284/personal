@@ -5,6 +5,7 @@ body {
 	background-size: cover;
 	/*font-family: 'Slabo 27px', serif; */
 	font-family: 'Roboto Slab', serif;
+	background-attachment: fixed;
 }
 
 nav img {
@@ -81,7 +82,7 @@ h2 {
 	background-color: rgba(0,0,0,.5);
 	border-radius: 10px;
 	color: white;
-	padding: 5px 20px 110px 20px;
+	padding: 5px 20px 120px 20px;
 	margin-top: 120px;
 	border: 1px solid;
 }
@@ -152,8 +153,8 @@ h2 {
 	background-color: rgba(0,0,0,.5);
 	border-radius: 10px;
 	color: white;
-	padding: 5px 20px 20px 20px;
 	margin-top: 120px;
+	margin-bottom: 200px;
 	border: 1px solid;
 }
 #portfolio > img {
@@ -163,5 +164,6 @@ h2 {
 	padding: 5px 10px;
 
 }
+/* End Portfolio Page */
 
 
